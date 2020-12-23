@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HeaderWrapper from './HeaderWrapper/HeaderWrapper';
 import Button from '../../components/Button';
 import { Context } from '../../api';
-import Icon from "react-native-vector-icons/FontAwesome5";
+import Icon from "react-native-vector-icons/FontAwesome";
 
 const styles = StyleSheet.create({
     holder: {
@@ -37,7 +37,7 @@ export default React.memo(function ({ navigation, route: { params }, ...props })
                 <View style={{ alignItems: 'flex-start', justifyContent: 'flex-start', flexDirection: 'column', flex: 1}}>
                     <View style={{flexDirection:'row', alignItems:'center', justifyContent:'center', marginTop: 20, marginLeft: 20}}>
                         <Icon name='envelope' size={20} ></Icon>
-                        <Text style={{marginLeft: 5, fontSize: 20}}>Електронна адреса:</Text>
+                        <Text style={{marginLeft: 5, fontSize: 20}}>Email:</Text>
                     </View>
                     <TouchableOpacity onPress={() => Linking.openURL('mailto:support@support.ua')} style={{ marginTop: 5, marginLeft: 20 }}>
                         <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#007AFF' }}>support@support.ua</Text>
