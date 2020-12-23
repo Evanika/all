@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import HeaderWrapper from './HeaderWrapper/HeaderWrapper';
 import Button from '../../components/Button';
+import TextSemiBold from '../../components/TextSemiBold';
 import { Context } from '../../api';
 import Icon from "react-native-vector-icons/FontAwesome";
 
@@ -19,6 +20,30 @@ const styles = StyleSheet.create({
       borderWidth: 3,
       borderColor: 'rgba(255, 255, 255, 0.5)',
     },
+    Btn: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: '90%',
+      height: 60,
+      borderRadius: 30,
+      overflow: 'hidden',
+      borderStyle: 'solid',
+      borderWidth: 2,
+      borderColor: 'rgba(255, 255, 255, 0.3)',
+      flexDirection:'row'
+    },
+    BtnYellow: {
+      backgroundColor: '#ffc107',
+      borderWidth: 0,
+    },
+    BtnText: {
+      fontSize: 16,
+      color: '#ffffff',
+    },
+    BtnTextYellow: {
+      fontSize: 16,
+      color: '#FFF',
+    },
   });
 
 
@@ -28,11 +53,16 @@ export default React.memo(function ({ navigation, route: { params }, ...props })
     return (
        <HeaderWrapper navigation={navigation}>
            <View style={[styles.holder]}>
-      <Button
-        style={styles.btn}
+           <View
+      style={[styles.Btn,styles.BtnYellow, styles.btn]}
+    >
+      <TextSemiBold
+        style={[ styles.BtnTextYellow]}
       >
         Контакти
-      </Button>
+      </TextSemiBold>
+      <View style={{marginLeft: 15}}>{props.disabled &&  <Bubbles size={5} color="#FFF" />}</View>
+    </View>
     </View>
                 <View style={{ alignItems: 'flex-start', justifyContent: 'flex-start', flexDirection: 'column', flex: 1}}>
                     <View style={{flexDirection:'row', alignItems:'center', justifyContent:'center', marginTop: 20, marginLeft: 20}}>
