@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "794749058577",
+    "firebase_url": "https://support-ua-app.firebaseio.com",
+    "project_id": "support-ua-app",
+    "storage_bucket": "support-ua-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794749058577:android:cab50016a20b300b96fbb0",
+        "android_client_info": {
+          "package_name": "com.supportua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794749058577-cfi56ndin1524ljpd5jvk90sj53n3kit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcg5x2vqdBg39yjSGIfmeaXDsAaeulJTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794749058577-cfi56ndin1524ljpd5jvk90sj53n3kit.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "794749058577-5gmic8676ftjki2gq3qf9qmci1bs20nq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.support.ua"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794749058577:android:bb8003d6d8a1b56496fbb0",
+        "android_client_info": {
+          "package_name": "expert.iwa.assistant.support"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794749058577-cfi56ndin1524ljpd5jvk90sj53n3kit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcg5x2vqdBg39yjSGIfmeaXDsAaeulJTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794749058577-cfi56ndin1524ljpd5jvk90sj53n3kit.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "794749058577-5gmic8676ftjki2gq3qf9qmci1bs20nq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.support.ua"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
